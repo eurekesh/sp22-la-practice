@@ -2,7 +2,7 @@
 ### Setup
 The student comes to you working on [problem 1](https://github.com/CSCI1300-StartingComputing/CSCI1300-Spring2022/blob/main/homework/homework3/homework3.md#question1) of this week's HW but nothing is working *at all* :( The student is getting confused by compiler errors because based on their experience with Python everything should be working normally.
 
-``` 
+```cpp 
 #include <iostream>
 #define LA_TEST false
 #if LA_TEST

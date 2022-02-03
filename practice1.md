@@ -2,7 +2,7 @@
 ### Setup
 The student comes to you working on [problem 3](https://github.com/CSCI1300-StartingComputing/CSCI1300-Spring2022/blob/main/homework/homework3/homework3.md#question3) of this week's HW but seems to be having some weird output. They have tried applying an incremental discount but it's just not working as they thought :( Where do they go from here?
 
-``` 
+```cpp 
 #include <iostream>
 #include <iomanip>
 
