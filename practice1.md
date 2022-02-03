@@ -42,11 +42,16 @@ int main() {
 ```
 
 ### Tests
-|   | Test                                | Input | Expected                                                     | Got                                                          |
-|---|-------------------------------------|-------|--------------------------------------------------------------|--------------------------------------------------------------|
-| ✅ | //test case 1 - between 0 & 20      | 10    | How many ducks would you like to order? Your total is $5.00  | How many ducks would you like to order? Your total is $5.00  |
-| ❌ | //test case 2 - between 20 & 100    | 75    | How many ducks would you like to order? Your total is $33.75 | How many ducks would you like to order? Your total is $3.75  |
-| ❌ | //test case 4 - between 100 and 500 | 220   | How many ducks would you like to order? Your total is $88.00 | How many ducks would you like to order? Your total is $22.00 |
-| ❌ | //test case 12 - edge case          | 100   | How many ducks would you like to order? Your total is $45.00 | How many ducks would you like to order? Your total is $5.00  |
+|   | Test                                 | Input | Expected                                                            | Got                                                                 |   |
+|---|--------------------------------------|-------|---------------------------------------------------------------------|---------------------------------------------------------------------|---|
+| ❌ | //test case 2 - between 20 & 100     | 75    | How many ducks would you like to order? Your total is $33.75        | How many ducks would you like to order? Your total is $3.75         |   |
+| ✅ | //test case 3 - 20 - edge case       | 20    | How many ducks would you like to order? Your total is $10.00        | How many ducks would you like to order? Your total is $10.00        |   |
+| ❌ | //test case 4 - between 100 and 500  | 220   | How many ducks would you like to order? Your total is $88.00        | How many ducks would you like to order? Your total is $22.00        |   |
+| ✅ | //test case 5 - 500+                 | 650   | How many ducks would you like to order? Your total is $162.50       | How many ducks would you like to order? Your total is $162.50       |   |
+| ✅ | //test case 6 - invalid              | -20   | How many ducks would you like to order? Please enter a valid input. | How many ducks would you like to order? Please enter a valid input. |   |
+| ✅ | //test case 7 - invalid              | -200  | How many ducks would you like to order? Please enter a valid input. | How many ducks would you like to order? Please enter a valid input. |   |
+| ✅ | //test case 8 - 0 edge case          | 0     | How many ducks would you like to order? Your total is $0.00         | How many ducks would you like to order? Your total is $0.00         |   |
+| ❌ | //test case 14 - between 100 and 500 | 209   | How many ducks would you like to order? Your total is $83.60        | How many ducks would you like to order? Your total is $20.90        |   |
+*Some hidden test cases failed, too*
 
 Copy paste the above code into VSCode and help the student solve the problem!
