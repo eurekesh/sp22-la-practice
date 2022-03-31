@@ -11,6 +11,8 @@ using namespace std;
 int main() {
     int order = 0;
     double total = 0;
+
+    double 
     
     cout << setprecision(2);
     cout << fixed;
